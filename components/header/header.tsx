@@ -7,7 +7,7 @@ const Header = () => {
       <nav>
         <div className="navbar justify-between bg-base-300"> 
         <Link href="/" className="btn btn-ghost text-lg">
-          PEGASUS
+          PEGASUS♞
         </Link>
         <ul className="flex">
           <li>
