@@ -13,6 +13,7 @@ const productSchema = new mongoose.Schema(
     countInStock: { type: Number, required: true, default: 0 },
     description: { type: String, required: true },
     isFeatured: { type: Boolean, default: false },
+    isBannerEnabled: { type: Boolean, default: false },
     banner: String,
   },
   {
@@ -26,6 +27,8 @@ const ProductModel =
 export default ProductModel
 
 export type Product = {
+  length: number
+  map(arg0: (product: any, index: any) => import("react").JSX.Element): import("react").ReactNode
   _id?: string
   name: string
   slug: string
