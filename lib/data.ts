@@ -136,8 +136,8 @@ const data = {
       description: "High-quality noise-canceling wireless earbuds with active noise cancellation."
     },
     {
-      name: "Samsung 65-Inch Smart TV",
-      slug: "samsung-65-inch-smart-tv",
+      name: "Samsung 65 Smart TV",
+      slug: "samsung-65-smart-tv",
       category: "TV",
       image: "/images/samsung-65-inch-tv.jpg",
       price: 899,
